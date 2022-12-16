@@ -1,0 +1,27 @@
+:root {
+  --card-width: 400px
+}
+
+.card {
+  max-width: var(--card-width);
+  background: white;
+  padding: 20px 20px 50px 20px;
+  border-radius: 30px;
+  user-select: none;
+}
+
+.card img {
+  border-radius: 20px;
+}
+
+.card .description {
+  text-align: center;
+}
+
+.card .title {
+  margin: 20px 0;
+}
+
+.card .main {
+  color: hsl(220, 15%, 55%)
+}
