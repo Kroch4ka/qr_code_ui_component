@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 
 :root {
-  --card-width: 325px
+  --card-width: 325px;
 }
 
 * {
@@ -20,7 +20,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
   font-size: 1rem;
 }
 
@@ -33,7 +33,7 @@ body {
 }
 
 .card img {
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .card .content {
@@ -43,6 +43,7 @@ body {
 .card .title {
   margin: 0.75em 0;
   font-size: 1.4em;
+  color: hsl(218, 44%, 22%)
 }
 
 .card .description {
